@@ -113,3 +113,14 @@
     background-color: var(--black);
 }
 
+.login_label--checkbox {
+    width: 100%;
+    margin: 15px 0 50px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+
+
