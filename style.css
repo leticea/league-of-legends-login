@@ -72,3 +72,8 @@
     background-color: var(--whitesmoke);
     border: 2px solid var(--deep-grey);
 }
+
+.login_label .span-active {
+    font-size: 0.7em;
+    margin: 8px 10px;
+}
