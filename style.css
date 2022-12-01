@@ -164,3 +164,14 @@
 .login_button svg {
     fill: #fff;
 }
+
+.login_button:disabled {
+    cursor: auto;
+    background-color: #fff;
+    border: 2px solid var(--light-grey);
+}
+
+.login_button:disabled svg {
+    fill: var(--grey);
+}
+
