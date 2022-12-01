@@ -1,6 +1,9 @@
 const inputs = document.querySelectorAll('.input');
 
-inputs.forEach((input) => {
+const handleFocus = ({ target }) => {
 
-    input.addEventListener('focus', handleFocus)
-});
+    const span = target.previousElementSibling;
+    span.classList.add('span-active');
+}
+
+inputs.forEach((input) => input.addEventListener('focus', handleFocus));
