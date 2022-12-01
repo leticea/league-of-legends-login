@@ -27,3 +27,27 @@
     max-width: 500px;
     min-height: 100vh;
 }
+
+.login_logo {
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+.login_title {
+    color: var(--deep-grey);
+    font-size: 1.5em;
+}
+
+.login_label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
