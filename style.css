@@ -37,6 +37,7 @@
 .login_title {
     color: var(--deep-grey);
     font-size: 1.5em;
+    margin-bottom: 30px;
 }
 
 .login_label {
@@ -55,4 +56,14 @@
     padding: 25px 10px 10px;
     font-weight: 600;
     color: var(--deep-grey);
+}
+
+.login_label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
 }
